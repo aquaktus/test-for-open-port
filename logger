@@ -5,6 +5,6 @@ app.get('/', function (req, res) {
   console.log('hello world!');
 });
 
-app.listen(3000, '0.0.0.0', function() {
+app.listen(80, '0.0.0.0', function() {
   console.log('I\'m Listening...');
 })
