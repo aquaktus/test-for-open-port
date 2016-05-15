@@ -3,7 +3,7 @@ var express           = require('express'),
 
 app.get('/', function (req, res) {
   console.log('hello world!');
-  res.sendfile('/home/centos/Crayonn/crayonn/images/57389b004212b1f05b164c95/fullSize.jpg');
+  res.sendfile(__dirname + '/testimg.jgp');
 });
 
 app.listen(3000, '0.0.0.0', function() {
