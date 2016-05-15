@@ -3,6 +3,7 @@ var express           = require('express'),
 
 app.get('/', function (req, res) {
   console.log('hello world!');
+  res.sendfile(__dirname + 'testimg.jpg');
 });
 
 app.listen(3000, '0.0.0.0', function() {
